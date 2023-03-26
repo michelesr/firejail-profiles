@@ -23,7 +23,4 @@ apparmor
 dbus-system none
 dbus-user none
 
-# required to use X11/XWayland
-ignore ipc-namespace
-
 include /etc/firejail/PCSX2.profile
