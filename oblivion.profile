@@ -1,5 +1,3 @@
-ignore allow-debuggers
-
 net none
 disable-mnt
 whitelist ${HOME}/Games/oblivion
@@ -38,13 +36,13 @@ dbus-system none
 #
 # ESP mods can be used without OBSE
 #
-# ignore apparmor
-# ignore seccomp
+ignore apparmor
+allow-debuggers
 
 # NOTE: apparmor prevents running binaries from the user home (and subdirectories)
 # If you want to run wine from there properly, please comment this.
 # Look at /etc/apparmor.d/firejail-default:85 for more information
-apparmor
+# apparmor
 
 protocol unix,netlink
 
