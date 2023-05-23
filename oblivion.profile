@@ -1,6 +1,7 @@
 net none
 disable-mnt
 whitelist ${HOME}/Games/oblivion
+whitelist ~/.cache/nvidia
 
 env WINEDEBUG=-all
 env WINEESYNC=1
