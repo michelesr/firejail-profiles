@@ -11,6 +11,7 @@ env DXVK_HUD=none
 env DXVK_LOG_LEVEL=none
 env DXVK_STATE_CACHE_PATH=/home/michele/Games/skyrim/dxvk/
 env WINEPREFIX=/home/michele/Games/skyrim
+env PULSE_LATENCY_MSEC=84
 
 # controller support
 ignore noinput
