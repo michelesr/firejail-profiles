@@ -24,5 +24,14 @@ protocol unix,inet,inet6,netlink
 apparmor
 nodbus
 
+# Lua
+ignore blacklist ${PATH}/lua*
+ignore blacklist /usr/include/lua*
+ignore blacklist /usr/lib/liblua*
+ignore blacklist /usr/lib/lua
+ignore blacklist /usr/lib64/liblua*
+ignore blacklist /usr/lib64/lua
+ignore blacklist /usr/share/lua*
+
 ignore noinput
 include /etc/firejail/openmw.profile
