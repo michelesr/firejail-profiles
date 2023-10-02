@@ -2,7 +2,7 @@
 # so in order to use QSampler you have to
 #       firejail --join=$(pidof ardour-6.5.0) qsampler
 # if that doesn't work try -h 127.0.0.1 and -p 8888
-net none
+
 apparmor
 
 # required to save/load presets in LV2 plugins
@@ -15,5 +15,11 @@ ignore protocol unix
 ignore ipc-namespace
 
 include pw-jack.profile
+
+# to load plugins in ~/.lv2/
+ignore noexec ${HOME}
+
+# pianoteq DRM will complain with no network
+ignore net none
 
 include /etc/firejail/ardour5.profile
