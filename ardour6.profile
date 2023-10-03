@@ -15,10 +15,14 @@ whitelist ~/.config/ardour7/
 whitelist ~/.local/share/ardour7
 whitelist ~/.cache/ardour7/
 
-# pianoteq DRM will complain with no network
+# pianoteq DRM will complain with no network interface
 ignore net none
+net wlp59s0
+
 whitelist ~/.config/Modartt/
 whitelist ~/.local/share/Modartt/
+
+netfilter /home/michele/.config/firejail/netfilter/block-all.net
 
 # LinuxSampler needs TCP sockets
 ignore protocol unix
