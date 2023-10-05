@@ -15,6 +15,11 @@ whitelist ~/.config/ardour7/
 whitelist ~/.local/share/ardour7
 whitelist ~/.cache/ardour7/
 
+whitelist ~/.config/fontconfig/
+whitelist ~/.fonts
+read-only ~/.config/fontconfig/
+read-only ~/.fonts
+
 # pianoteq DRM will complain with no network interface
 ignore net none
 net wlp59s0
