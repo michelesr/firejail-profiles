@@ -11,9 +11,17 @@ noblacklist ${HOME}/.lv2
 whitelist ${HOME}/.lv2
 whitelist ~/Projects/Audio/
 
+whitelist ~/.config/ardour6/
+whitelist ~/.local/share/ardour6
+whitelist ~/.cache/ardour6/
+
 whitelist ~/.config/ardour7/
 whitelist ~/.local/share/ardour7
 whitelist ~/.cache/ardour7/
+
+whitelist ~/.config/ardour8/
+whitelist ~/.local/share/ardour8
+whitelist ~/.cache/ardour8/
 
 whitelist ~/.config/fontconfig/
 whitelist ~/.fonts
