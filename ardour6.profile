@@ -30,7 +30,7 @@ read-only ~/.fonts
 
 # pianoteq DRM will complain with no network interface
 ignore net none
-net wlp59s0
+net wlan0
 
 whitelist ~/.config/Modartt/
 whitelist ~/.local/share/Modartt/
