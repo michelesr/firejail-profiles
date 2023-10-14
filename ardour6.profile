@@ -5,10 +5,6 @@
 
 apparmor
 
-# required to save/load presets in LV2 plugins
-noblacklist ${HOME}/.lv2
-
-whitelist ${HOME}/.lv2
 whitelist ~/Projects/Audio/
 
 whitelist ~/.config/ardour6/
@@ -28,15 +24,6 @@ whitelist ~/.fonts
 read-only ~/.config/fontconfig/
 read-only ~/.fonts
 
-# pianoteq DRM will complain with no network interface
-ignore net none
-net wlan0
-
-whitelist ~/.config/Modartt/
-whitelist ~/.local/share/Modartt/
-
-netfilter /home/michele/.config/firejail/netfilter/block-all.net
-
 # LinuxSampler needs TCP sockets
 ignore protocol unix
 
@@ -44,8 +31,6 @@ ignore protocol unix
 ignore ipc-namespace
 
 include include/pw-jack.profile
-
-# to load plugins in ~/.lv2/
-ignore noexec ${HOME}
-
+include include/lv2.profile
+include include/modartt.profile
 include /etc/firejail/ardour5.profile
