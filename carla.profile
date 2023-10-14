@@ -1,6 +1,6 @@
-include include/modartt.profile
-include include/pw-jack.profile
-include include/lv2.profile
+include ${HOME}/.config/firejail/include/modartt.profile
+include ${HOME}/.config/firejail/include/pw-jack.profile
+include ${HOME}/.config/firejail/include/lv2.profile
 
 whitelist ${HOME}/Projects/Audio/carla
 whitelist ${HOME}/.config/qt5ct
