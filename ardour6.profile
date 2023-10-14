@@ -43,7 +43,7 @@ ignore protocol unix
 # required by DrumGizmo GUI
 ignore ipc-namespace
 
-include pw-jack.profile
+include include/pw-jack.profile
 
 # to load plugins in ~/.lv2/
 ignore noexec ${HOME}
