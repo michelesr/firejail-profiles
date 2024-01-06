@@ -29,7 +29,6 @@ private-opt empty
 private-bin dosbox
 
 # don't use a shell
-shell none
 
 apparmor
 dbus-system none

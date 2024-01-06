@@ -6,7 +6,6 @@ private-dev
 private-srv empty
 private-opt empty
 
-shell none
 
 dbus-user none
 dbus-system none

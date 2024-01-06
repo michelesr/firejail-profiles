@@ -13,7 +13,6 @@ ignore whitelist ${HOME}/.config/redshift
 ignore whitelist ${HOME}/.config/redshift.conf
 
 net none
-shell none
 private-cache
 private-cache
 private-dev
