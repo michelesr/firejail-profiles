@@ -14,5 +14,4 @@ whitelist ${RUNUSER}/app/org.keepassxc.KeePassXC
 # including the Wayland server socket
 whitelist ${RUNUSER}/wayland*
 
-ignore no3d
 include /etc/firejail/keepassxc.profile
