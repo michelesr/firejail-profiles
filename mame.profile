@@ -16,7 +16,6 @@ private-dev
 
 protocol unix,inet,inet6,netlink
 
-shell none
 
 apparmor
 nodbus

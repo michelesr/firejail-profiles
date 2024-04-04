@@ -23,7 +23,6 @@ private-srv empty
 private-opt empty
 
 # deprecated: is now done by default
-shell none
 
 dbus-user none
 dbus-system none

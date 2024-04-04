@@ -17,7 +17,6 @@ private-bin mednafen
 
 protocol unix,inet,inet6,netlink
 
-shell none
 
 apparmor
 dbus-system none

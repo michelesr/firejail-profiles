@@ -18,7 +18,6 @@ private-srv empty
 private-opt empty
 
 # don't use a shell
-shell none
 
 nodbus
 apparmor
