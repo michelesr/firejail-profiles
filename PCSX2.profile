@@ -1,5 +1,7 @@
 net none
 
+env I_WANT_A_BROKEN_WAYLAND_UI=YES
+
 whitelist ~/.config/PCSX2
 whitelist ~/.cache/PCSX2
 whitelist ~/.local/share/PCSX2
@@ -11,7 +13,7 @@ private-tmp
 private-etc empty
 private-srv empty
 private-opt pcsx2
-private-bin pcsx2,PCSX2,pcsx2-qt,bash,sh
+private-bin pcsx2,PCSX2,pcsx2-qt,bash,sh,env
 private-dev
 
 # shell required to run entrypoint script
