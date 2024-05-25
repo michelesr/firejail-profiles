@@ -4,6 +4,14 @@
 # disable network connectivity
 # net none
 
+env WINEDEBUG=-all
+env WINEESYNC=1
+env WINEFSYNC=1
+env WINEARCH=win32
+env DXVK_HUD=none
+env DXVK_LOG_LEVEL=none
+env WINEPREFIX=/home/michele/Games/wow
+
 # blacklist /mnt /media /run/mount /run/media
 disable-mnt
 
@@ -29,7 +37,11 @@ private-opt empty
 
 dbus-user none
 dbus-system none
-apparmor
 # protocol unix
+
+# need these if you want to use .dll loaders (like VanillaFixes)
+ignore apparmor
+allow-debuggers
+# apparmor
 
 include /etc/firejail/wine.profile
