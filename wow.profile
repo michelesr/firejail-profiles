@@ -29,7 +29,7 @@ whitelist ${HOME}/Games/wow
 # whitelist ${HOME}/.local/share/lutris/runners/wine/lutris-6.0-x86_64
 
 private-tmp
-private-etc passwd,resolv.conf
+private-etc passwd,resolv.conf,localtime
 private-dev
 private-srv empty
 private-opt empty
