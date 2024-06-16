@@ -4,6 +4,8 @@
 # disable network connectivity
 # net none
 
+include ${HOME}/.config/firejail/include/nvidia-workaround.profile
+
 env WINEDEBUG=-all
 env WINEESYNC=1
 env WINEFSYNC=1
