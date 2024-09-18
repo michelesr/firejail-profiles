@@ -1,14 +1,12 @@
+include ~/.config/firejail/include/nvidia-workaround.profile
+include ~/.config/firejail/include/shader-cache.profile
+include ~/.config/firejail/include/wine-env.profile
+
 net none
 disable-mnt
 whitelist ${HOME}/Games/oblivion
-whitelist ~/.cache/nvidia
 
-env WINEDEBUG=-all
-env WINEESYNC=1
-# env WINEFSYNC=1
-env WINEARCH=win64
 env DXVK_HUD=none
-env DXVK_LOG_LEVEL=none
 env DXVK_STATE_CACHE_PATH=/home/michele/Games/oblivion/dxvk/
 env WINEPREFIX=/home/michele/Games/oblivion
 
