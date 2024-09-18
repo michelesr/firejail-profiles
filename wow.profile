@@ -4,6 +4,7 @@ include ~/.config/firejail/include/wine-env.profile
 
 env WINEARCH=win32
 env WINEPREFIX=/home/michele/Games/wow
+env DXVK_HUD=compiler
 
 whitelist ~/Games/wow
 

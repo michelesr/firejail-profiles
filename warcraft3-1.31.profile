@@ -9,7 +9,6 @@ env WINEDEBUG=-all
 env WINEESYNC=1
 env WINEFSYNC=1
 env WINEARCH=win64
-env DXVK_HUD=none
 env DXVK_LOG_LEVEL=none
 env WINEPREFIX=/home/michele/Games/warcraft3-1.31
 

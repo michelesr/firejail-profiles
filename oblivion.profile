@@ -6,7 +6,6 @@ net none
 disable-mnt
 whitelist ${HOME}/Games/oblivion
 
-env DXVK_HUD=none
 env DXVK_STATE_CACHE_PATH=/home/michele/Games/oblivion/dxvk/
 env WINEPREFIX=/home/michele/Games/oblivion
 
