@@ -1,3 +1,6 @@
+include ~/.config/firejail/include/nvidia-workaround.profile
+include ~/.config/firejail/include/shader-cache.profile
+
 # game breaks without this
 ignore private-bin
 
