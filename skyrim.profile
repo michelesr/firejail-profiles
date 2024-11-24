@@ -2,7 +2,9 @@ include ~/.config/firejail/include/nvidia-workaround.profile
 include ~/.config/firejail/include/shader-cache.profile
 include ~/.config/firejail/include/wine-env.profile
 
-net none
+# commented because it breaks PS3 controller hotplugging
+# net none
+
 disable-mnt
 whitelist ${HOME}/Games/skyrim
 
