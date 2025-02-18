@@ -8,8 +8,6 @@ include ~/.config/firejail/include/wine-env.profile
 disable-mnt
 whitelist ${HOME}/Games/the-witcher
 
-env DXVK_HUD=compiler
-env DXVK_ASYNC=1
 env DXVK_STATE_CACHE_PATH=/home/michele/Games/the-witcher/dxvk/
 env WINEPREFIX=/home/michele/Games/the-witcher
 
