@@ -1,15 +1,14 @@
 # this breaks the game
 # ignore allow-debuggers
 
+include ~/.config/firejail/include/nvidia-workaround.profile
+include ~/.config/firejail/include/shader-cache.profile
+include ~/.config/firejail/include/wine-env.profile
+
 net none
 disable-mnt
 whitelist ${HOME}/Games/warcraft3-1.31
 
-env WINEDEBUG=-all
-env WINEESYNC=1
-env WINEFSYNC=1
-env WINEARCH=win64
-env DXVK_LOG_LEVEL=none
 env WINEPREFIX=/home/michele/Games/warcraft3-1.31
 
 # lutris wine is nice because of esync, although it doesn't
