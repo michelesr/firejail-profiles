@@ -1,5 +1,7 @@
+env WINEPREFIX=/home/michele/Games/starcraft
+
 # this seems safe
-ignore allow-debuggers
+# ignore allow-debuggers
 
 # disable network connectivity
 net none
@@ -7,7 +9,6 @@ net none
 # blacklist home and whitelist only these exceptions
 whitelist ${HOME}/Games/starcraft
 
-# blacklist /mnt /media /run/mount /run/media
 disable-mnt
 
 # private /tmp
@@ -20,8 +21,9 @@ private-opt empty
 # don't use a shell
 
 nodbus
-apparmor
-protocol unix
+# apparmor
+ignore noexec ${HOME}
+# protocol unix
 
 # basic wine profile in /etc/firejail/wine.profile
-include wine.profile
+include /etc/firejail/wine.profile
