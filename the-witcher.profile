@@ -3,7 +3,7 @@ include ~/.config/firejail/include/shader-cache.profile
 include ~/.config/firejail/include/wine-env.profile
 
 # it breaks PS3 controller hotplugging
-net none
+# net none
 
 disable-mnt
 whitelist ${HOME}/Games/the-witcher
