@@ -2,7 +2,7 @@ include ~/.config/firejail/include/nvidia-workaround.profile
 include ~/.config/firejail/include/shader-cache.profile
 include ~/.config/firejail/include/wine-env.profile
 
-env WINEARCH=win32
+env WINEARCH=wow64
 env WINEPREFIX=/home/michele/Games/wow
 env DXVK_HUD=compiler
 
