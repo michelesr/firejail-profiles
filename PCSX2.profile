@@ -1,4 +1,6 @@
-net none
+# controller hotplug
+ignore net none
+ignore noroot
 
 env I_WANT_A_BROKEN_WAYLAND_UI=YES
 
@@ -20,7 +22,7 @@ private-dev
 ignore blacklist ${PATH}/sh
 ignore blacklist ${PATH}/bash
 
-protocol unix,inet,inet6,netlink
+protocol unix,netlink
 
 apparmor
 dbus-system none
