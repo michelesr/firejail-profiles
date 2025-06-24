@@ -1,3 +1,5 @@
+include ~/.config/firejail/include/shader-cache.profile
+
 # controller hotplug
 ignore net none
 ignore noroot
