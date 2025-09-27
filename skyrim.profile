@@ -8,7 +8,6 @@ net none
 disable-mnt
 whitelist ${HOME}/Games/skyrim
 
-env DXVK_HUD=none
 env DXVK_STATE_CACHE_PATH=/home/michele/Games/skyrim/dxvk/
 env WINEPREFIX=/home/michele/Games/skyrim
 
