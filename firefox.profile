@@ -20,6 +20,7 @@ whitelist /tmp/firefox
 # Allow the libgmpopenh264.so inside the ~/.mozilla/ user profile to run
 ignore noexec ${HOME}
 
+# include ~/.config/firejail/include/glycin-fix.profile
 include /etc/firejail/firefox.profile
 
 # uncomment this to fix WebGL and Lucidchart
