@@ -20,6 +20,7 @@ dbus-system none
 
 # need these if you want to use .dll loaders (like VanillaFixes)
 ignore apparmor
+ignore keep-dev-ntsync
 allow-debuggers
 
 include /etc/firejail/wine.profile
