@@ -1,3 +1,3 @@
-noblacklist /sys/module
-whitelist /sys/module/nvidia*
-read-only /sys/module/nvidia*
+# noblacklist /sys/module
+# whitelist /sys/module/nvidia*
+# read-only /sys/module/nvidia*
