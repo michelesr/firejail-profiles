@@ -1,1 +1,1 @@
-ardour6.profile
+ardour.profile
