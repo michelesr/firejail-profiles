@@ -23,6 +23,9 @@ whitelist ~/.config/ardour9/
 whitelist ~/.local/share/ardour9
 whitelist ~/.cache/ardour9/
 
+# private-cache interferes with the .cache whitelist above
+ignore private-cache
+
 whitelist ~/.config/fontconfig/
 whitelist ~/.fonts
 read-only ~/.config/fontconfig/
