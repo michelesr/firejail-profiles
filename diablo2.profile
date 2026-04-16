@@ -8,7 +8,7 @@ net none
 disable-mnt
 
 # blacklist home and whitelist only these exceptions
-whitelist ${HOME}/Games/diablo2
+whitelist ~/Games/diablo2
 
 
 private-tmp

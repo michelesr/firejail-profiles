@@ -1,16 +1,16 @@
-noblacklist ${HOME}/.config/gammastep
-noblacklist ${HOME}/.config/gammastep/config.ini
+noblacklist ~/.config/gammastep
+noblacklist ~/.config/gammastep/config.ini
 
-mkdir ${HOME}/.config/gammastep
-whitelist ${HOME}/.config/gammastep
-whitelist ${HOME}/.config/gammastep/config.ini
+mkdir ~/.config/gammastep
+whitelist ~/.config/gammastep
+whitelist ~/.config/gammastep/config.ini
 
-ignore noblacklist ${HOME}/.config/redshift
-ignore noblacklist ${HOME}/.config/redshift.conf
+ignore noblacklist ~/.config/redshift
+ignore noblacklist ~/.config/redshift.conf
 
-ignore mkdir ${HOME}/.config/redshift
-ignore whitelist ${HOME}/.config/redshift
-ignore whitelist ${HOME}/.config/redshift.conf
+ignore mkdir ~/.config/redshift
+ignore whitelist ~/.config/redshift
+ignore whitelist ~/.config/redshift.conf
 
 net none
 private-cache

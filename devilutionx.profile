@@ -1,4 +1,4 @@
-whitelist ${HOME}/.local/share/diasurgical/devilution
+whitelist ~/.local/share/diasurgical/devilution
 
 private-tmp
 private-etc passwd

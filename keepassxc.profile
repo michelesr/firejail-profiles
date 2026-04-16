@@ -3,7 +3,7 @@
 apparmor
 
 # we keep the db in Nextcloud
-noblacklist ${HOME}/Nextcloud
+noblacklist ~/Nextcloud
 
 # can't blacklist app because contains the browser integration socket
 noblacklist ${RUNUSER}/app

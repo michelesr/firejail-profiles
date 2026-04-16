@@ -6,7 +6,7 @@ disable-mnt
 private-tmp
 
 # qt themes
-whitelist ${HOME}/.config/qt5ct
+whitelist ~/.config/qt5ct
 
 dbus-user none
 dbus-system none

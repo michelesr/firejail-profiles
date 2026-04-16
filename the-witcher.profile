@@ -6,7 +6,7 @@ include ~/.config/firejail/include/wine-env.profile
 # net none
 
 disable-mnt
-whitelist ${HOME}/Games/the-witcher
+whitelist ~/Games/the-witcher
 
 env DXVK_STATE_CACHE_PATH=/home/michele/Games/the-witcher/dxvk/
 env WINEPREFIX=/home/michele/Games/the-witcher

@@ -7,7 +7,7 @@ include ~/.config/firejail/include/wine-env.profile
 
 net none
 disable-mnt
-whitelist ${HOME}/Games/warcraft3-1.31
+whitelist ~/Games/warcraft3-1.31
 
 env WINEPREFIX=/home/michele/Games/warcraft3-1.31
 

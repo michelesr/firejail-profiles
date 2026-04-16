@@ -1,7 +1,7 @@
 # disable network connectivity
 net none
 
-whitelist ${HOME}/.mame
+whitelist ~/.mame
 
 disable-mnt
 

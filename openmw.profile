@@ -1,13 +1,13 @@
 # disable network connectivity
 net none
 
-whitelist ${HOME}/Games/morrowind
-whitelist ${HOME}/.config/openmw
-whitelist ${HOME}/.local/share/openmw
+whitelist ~/Games/morrowind
+whitelist ~/.config/openmw
+whitelist ~/.local/share/openmw
 whitelist /usr/share/games/openmw
 
 # for qt themes
-# whitelist ${HOME}/.config/qt5ct
+# whitelist ~/.config/qt5ct
 
 disable-mnt
 

@@ -1,9 +1,9 @@
 # disable network connectivity
 net none
 
-whitelist ${HOME}/Games/ps1
-whitelist ${HOME}/Games/nintendo
-whitelist ${HOME}/.mednafen
+whitelist ~/Games/ps1
+whitelist ~/Games/nintendo
+whitelist ~/.mednafen
 
 disable-mnt
 

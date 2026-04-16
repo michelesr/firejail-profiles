@@ -4,7 +4,7 @@ include ~/.config/firejail/include/wine-env.profile
 
 net none
 disable-mnt
-whitelist ${HOME}/Games/oblivion
+whitelist ~/Games/oblivion
 
 env DXVK_STATE_CACHE_PATH=/home/michele/Games/oblivion/dxvk/
 env WINEPREFIX=/home/michele/Games/oblivion

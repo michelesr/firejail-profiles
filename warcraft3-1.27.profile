@@ -14,7 +14,7 @@ disable-mnt
 env WINEPREFIX=/home/michele/Games/warcraft3-1.27
 
 # blacklist home and whitelist only these exceptions
-whitelist ${HOME}/Games/warcraft3-1.27
+whitelist ~/Games/warcraft3-1.27
 
 private-tmp
 private-etc passwd

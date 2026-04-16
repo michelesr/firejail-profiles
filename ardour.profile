@@ -37,7 +37,7 @@ ignore protocol unix
 # required by DrumGizmo GUI
 ignore ipc-namespace
 
-include ${HOME}/.config/firejail/include/pw-jack.profile
-include ${HOME}/.config/firejail/include/lv2.profile
-include ${HOME}/.config/firejail/include/modartt.profile
+include ~/.config/firejail/include/pw-jack.profile
+include ~/.config/firejail/include/lv2.profile
+include ~/.config/firejail/include/modartt.profile
 include /etc/firejail/ardour5.profile

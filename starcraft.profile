@@ -7,7 +7,7 @@ env WINEPREFIX=/home/michele/Games/starcraft
 net none
 
 # blacklist home and whitelist only these exceptions
-whitelist ${HOME}/Games/starcraft
+whitelist ~/Games/starcraft
 
 disable-mnt
 

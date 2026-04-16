@@ -6,7 +6,7 @@ include ~/.config/firejail/include/wine-env.profile
 net none
 
 disable-mnt
-whitelist ${HOME}/Games/skyrim
+whitelist ~/Games/skyrim
 
 env DXVK_STATE_CACHE_PATH=/home/michele/Games/skyrim/dxvk/
 env WINEPREFIX=/home/michele/Games/skyrim
