@@ -1,3 +1,5 @@
+include ~/.config/firejail/include/shader-cache.profile
+
 whitelist ~/.local/share/diasurgical/devilution
 
 private-tmp
@@ -5,7 +7,6 @@ private-etc passwd
 private-dev
 private-srv empty
 private-opt empty
-
 
 dbus-user none
 dbus-system none
