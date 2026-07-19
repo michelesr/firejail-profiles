@@ -20,6 +20,9 @@ dbus-system none
 # breaks controller hotplugging
 net none
 
+# to prevent dns to be resolved via resolved
+blacklist /run/systemd
+
 # disable controller support
 noinput
 
