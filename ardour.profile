@@ -40,4 +40,8 @@ ignore ipc-namespace
 include ~/.config/firejail/include/pw-jack.profile
 include ~/.config/firejail/include/lv2.profile
 include ~/.config/firejail/include/modartt.profile
+
+ignore include disable-xdg.inc
+ignore dbus-user none
+
 include /etc/firejail/ardour5.profile
